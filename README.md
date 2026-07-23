@@ -56,8 +56,6 @@ All SMD capacitors and resistors are of size 0805 (2012 metric).
 
 Desolder the YM2612 (OPN2) from the system PCB. I recommend installing a socket in its place unless you are confident in your abilities to do without.
 
-As the new board replaces most of the audio path on the motherboard, 
-
 ### Board Assembly
 
 Place the adapter PCB on top of the pin strips using the *bottom set* of pins. Solder the pin strips in place from the top side. This is easier to do if you put the pin strips in the socket on the motherboard first.
