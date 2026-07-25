@@ -52,7 +52,7 @@
         "zones": {
           "border_display_style": 2,
           "border_hatch_pitch": 0.5,
-          "corner_radius": 1.0,
+          "corner_radius": 2.0,
           "corner_smoothing": 2,
           "fill_mode": 0,
           "hatch_gap": 1.5,
@@ -716,7 +716,7 @@
         "uuid": "f9b9b574-6fa4-4adc-a783-fdf6fb757948"
       }
     ],
-    "used_designators": "IN_PSG1,OUT_L1,IN_SR1-2,JS1-2,R1-26,JP1-3,OUT_R1-2,JP_OPNR1,JP_FILTR1,TP_PSG1,J1-6,#PWR1-29,TP_OPN2C_MOL1,JOPN1,JOUT1,TP1,TP_SCDR1,JPSG1,IN_SL1-2,TP_OPN2C_MOR1,JP_OPNL1,TP_SCDL1-2,TO_OPN2C_MOL1-2,C1-15,TP_CRTR1,U1-5,JP_FILTL1,TP_CRTL1",
+    "used_designators": "TP_OPN2C_MOL1,#PWR1-29,J1-6,TP_PSG1,JP_FILTR1,OUT_R1-2,JP_OPNR1,JP1-3,R1-26,JS1-2,IN_SR1-2,OUT_L1,IN_PSG1,TP_CRTR1,C1-15,TP_CRTL1,JP_FILTL1,U1-5,JP_OPNL1,TO_OPN2C_MOL1-2,TP_OPN2C_MOR1,IN_SL1-2,TP_SCDL1-2,JPSG1,TP_SCDR1,JOPN1,JOUT1,TP1",
     "variants": []
   },
   "sheets": [
