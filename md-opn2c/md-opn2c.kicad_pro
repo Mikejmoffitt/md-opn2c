@@ -39,9 +39,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.8,
-          "height": 1.27,
-          "width": 1.27
+          "drill": 0.0,
+          "height": 2.0,
+          "width": 1.0
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -594,6 +594,7 @@
       "netlist": "",
       "plot": "gerbils/",
       "specctra_dsn": "",
+      "step": "",
       "vrml": ""
     },
     "page_layout_descr_file": ""
@@ -716,7 +717,7 @@
         "uuid": "f9b9b574-6fa4-4adc-a783-fdf6fb757948"
       }
     ],
-    "used_designators": "TP_OPN2C_MOL1,#PWR1-29,J1-6,TP_PSG1,JP_FILTR1,OUT_R1-2,JP_OPNR1,JP1-3,R1-26,JS1-2,IN_SR1-2,OUT_L1,IN_PSG1,TP_CRTR1,C1-15,TP_CRTL1,JP_FILTL1,U1-5,JP_OPNL1,TO_OPN2C_MOL1-2,TP_OPN2C_MOR1,IN_SL1-2,TP_SCDL1-2,JPSG1,TP_SCDR1,JOPN1,JOUT1,TP1",
+    "used_designators": "TP1,JOUT1,JOPN1,TP_SCDR1,JPSG1,TP_SCDL1-2,IN_SL1-2,TP_OPN2C_MOR1,TO_OPN2C_MOL1-2,JP_FILTL1,U1-5,TP_CRTL1,JP_OPNL1,C1-15,TP_CRTR1,TP_OPN2C_MOL1,#PWR1-29,J1-6,TP_PSG1,JP_FILTR1,OUT_R1-2,JP_OPNR1,JP1-3,R1-26,JS1-2,IN_SR1-2,OUT_L1,IN_PSG1",
     "variants": []
   },
   "sheets": [
