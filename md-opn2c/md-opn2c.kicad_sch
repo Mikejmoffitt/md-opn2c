@@ -3459,9 +3459,9 @@
 		)
 		(uuid "17063d97-e220-47e6-9784-e301d41fe354")
 	)
-	(text "Reduce the value of C9/C10 to\nincrease the cutoff frequency."
+	(text "Reduce the value of C9/C10 to\nincrease the cutoff frequency\nof the low-pass filter.\n\n150pF:  3.538KHz\n75pF:   7.077KHz\n33pf:  16.084khz"
 		(exclude_from_sim no)
-		(at 146.304 70.612 0)
+		(at 146.304 74.676 0)
 		(effects
 			(font
 				(size 1.25 1.25)
@@ -7782,7 +7782,7 @@
 				)
 			)
 		)
-		(property "Value" "150pF/50V"
+		(property "Value" "33pF/50V"
 			(at 118.1163 114.3 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8690,7 +8690,7 @@
 				)
 			)
 		)
-		(property "Value" "150pF/50V"
+		(property "Value" "33pF/50V"
 			(at 118.1163 71.12 90)
 			(show_name no)
 			(do_not_autoplace no)
