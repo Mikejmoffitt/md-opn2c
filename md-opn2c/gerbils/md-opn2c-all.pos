@@ -1,0 +1,51 @@
+### Footprint positions - created on 2026-09-17T19:09:21 ###
+### Printed by KiCad version 10.0.5+dfsg-1
+## Unit = mm, Angle = deg.
+## Side : All
+# Ref     Val                  Package                                               PosX       PosY       Rot  Side
+JP1       SolderJumper_3_Open  SolderJumper-3_P2.0mm_Open_TrianglePad1.0x1.5mm    26.6700   -40.9575    0.0000  bottom
+JP2       SolderJumper_3_Open  SolderJumper-3_P2.0mm_Open_TrianglePad1.0x1.5mm    33.1150   -40.9575    0.0000  bottom
+C1        10uF/16V             C_0603_1608Metric                                  27.1275   -25.7175  180.0000  top
+C2        10uF/16V             C_0603_1608Metric                                  30.3025   -25.7175  180.0000  top
+C3        1uF/16V              C_0603_1608Metric                                  55.8800   -37.4650   90.0000  top
+C4        1uF/16V              C_0603_1608Metric                                  70.1675   -27.3050  -90.0000  top
+C5        1uF/16V              C_0603_1608Metric                                  59.0550   -37.4650   90.0000  top
+C6        1uF/16V              C_0603_1608Metric                                  70.1675   -33.6550  -90.0000  top
+C7        1uF/16V              C_0603_1608Metric                                  68.5800   -36.8300   90.0000  top
+C8        1uF/16V              C_0603_1608Metric                                  70.1675   -30.4800  -90.0000  top
+C9        33pF/50V             C_0603_1608Metric                                  63.6775   -34.2900  180.0000  top
+C10       33pF/50V             C_0603_1608Metric                                  66.6750   -24.7650  180.0000  top
+C11       10uF/16V             CP_Radial_D5.0mm_P2.50mm                           60.2601   -21.5900  180.0000  top
+C12       47uF/50V             CP_Radial_D5.0mm_P2.50mm                           60.2601   -33.0200  180.0000  top
+C13       47uF/50V             CP_Radial_D5.0mm_P2.50mm                           60.2601   -27.3050  180.0000  top
+IN_PSG1   TestPoint_Small      SolderWirePad_1x01_SMD_1x2mm                       66.3575   -41.2750   90.0000  top
+IN_SL1    TestPoint_Small      SolderWirePad_1x01_SMD_1x2mm                       57.7850   -41.2750   90.0000  top
+IN_SL2    TestPoint_Small      SolderWirePad_1x01_SMD_1x2mm                       60.6425   -41.2750   90.0000  top
+IN_SR1    TestPoint_Small      SolderWirePad_1x01_SMD_1x2mm                       63.5000   -41.2750   90.0000  top
+IN_SR2    TestPoint_Small      SolderWirePad_1x01_SMD_1x2mm                       69.2150   -41.2750   90.0000  top
+JOPN1     DIP24_Header         DIP-24_W15.24mm                                    25.4000   -38.1000   90.0000  top
+OUT_GND1  TestPoint_Small      SolderWirePad_1x01_SMD_1x2mm                       66.3575   -20.2087  180.0000  top
+OUT_L1    TestPoint_Small      SolderWirePad_1x01_SMD_1x2mm                       68.3575   -20.2087  180.0000  top
+OUT_R1    TestPoint_Small      SolderWirePad_1x01_SMD_1x2mm                       70.3575   -20.2087  180.0000  top
+R8        100k                 R_0603_1608Metric                                  27.0775   -27.3050    0.0000  top
+R9        100k                 R_0603_1608Metric                                  30.2525   -27.3050    0.0000  top
+R10       210k                 R_0603_1608Metric                                  57.4250   -37.4650  -90.0000  top
+R11       210k                 R_0603_1608Metric                                  68.5800   -27.3050   90.0000  top
+R12       210k                 R_0603_1608Metric                                  60.6425   -37.4650  -90.0000  top
+R13       210k                 R_0603_1608Metric                                  68.5800   -33.6550   90.0000  top
+R14       210k                 R_0603_1608Metric                                  70.1675   -36.8300  -90.0000  top
+R15       210k                 R_0603_1608Metric                                  68.5800   -30.4800   90.0000  top
+R16       300k                 R_0603_1608Metric                                  63.6900   -35.8775  180.0000  top
+R17       300k                 R_0603_1608Metric                                  69.8500   -24.7650    0.0000  top
+R18       330                  R_0603_1608Metric                                  63.6900   -37.4650  180.0000  top
+R19       330                  R_0603_1608Metric                                  63.6900   -24.7650  180.0000  top
+R20       10k                  R_0603_1608Metric                                  63.6900   -23.1775    0.0000  top
+R21       10k                  R_0603_1608Metric                                  63.6900   -21.5900  180.0000  top
+R22       100k                 R_0603_1608Metric                                  33.0200   -26.2250   90.0000  top
+R23       100k                 R_0603_1608Metric                                  34.9250   -26.2250   90.0000  top
+R24       10k                  R_0603_1608Metric                                  27.0775   -28.9052  180.0000  top
+R25       10k                  R_0603_1608Metric                                  30.2525   -28.8925  180.0000  top
+U1        TL972                SOIC-8_3.9x4.9mm_P1.27mm                           64.7700   -29.5325   90.0000  top
+U2        74HCT08              SOIC-14_3.9x8.7mm_P1.27mm                          46.9900   -29.2750   90.0000  top
+U3        YM3438               DIP-24_W15.24mm                                    25.4000   -35.5600   90.0000  top
+## End

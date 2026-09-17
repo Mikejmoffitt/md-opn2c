@@ -2938,6 +2938,268 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Jumper:SolderJumper_3_Open"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "JP"
+				(at -2.54 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SolderJumper_3_Open"
+				(at 0 2.794 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 -15.24 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Solder Jumper, 3-pole, open"
+				(at 0 -12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property private "KLC_S5.1" "This is a generic symbol, it has fp-filter, but no default footprint"
+				(at 0 -17.78 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property private "KLC_S3.3" "Graphical-Symbol: thickness is 6mm, fill is background"
+				(at 0 -20.32 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "Solder Jumper SPDT"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "SolderJumper*Open*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "SolderJumper_3_Open_0_1"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -2.032 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 1.016) (xy -1.016 -1.016)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -1.016 -1.016)
+					(mid -2.0276 0)
+					(end -1.016 1.016)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -0.508 1.016)
+					(end 0.508 -1.016)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 0 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.016 1.016)
+					(mid 2.0276 0)
+					(end 1.016 -1.016)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 1.016) (xy 1.016 -1.016)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 2.032 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SolderJumper_3_Open_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GND"
 			(power global)
 			(pin_numbers
@@ -3489,6 +3751,18 @@
 		(uuid "0938334e-e11c-4b92-bcda-41098b241adf")
 	)
 	(junction
+		(at 74.93 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "138d3728-3e78-42b5-a8ab-9c558dc4ee9c")
+	)
+	(junction
+		(at 74.93 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "196a4ca1-8b03-4fc4-ba83-6031ea541a9c")
+	)
+	(junction
 		(at 152.4 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3746,6 +4020,16 @@
 	)
 	(wire
 		(pts
+			(xy 67.31 43.18) (xy 74.93 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1538d089-f03c-4ee3-9bf5-17f8288f61e7")
+	)
+	(wire
+		(pts
 			(xy 59.69 43.18) (xy 59.69 45.72)
 		)
 		(stroke
@@ -3806,6 +4090,16 @@
 	)
 	(wire
 		(pts
+			(xy 74.93 63.5) (xy 74.93 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "209118b1-bc9f-4e03-9619-c82d4c092b99")
+	)
+	(wire
+		(pts
 			(xy 241.3 114.3) (xy 243.84 111.76)
 		)
 		(stroke
@@ -3856,6 +4150,16 @@
 	)
 	(wire
 		(pts
+			(xy 74.93 43.18) (xy 74.93 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a2601e8-8007-49f0-a04a-e72226de33f3")
+	)
+	(wire
+		(pts
 			(xy 152.4 36.83) (xy 152.4 38.1)
 		)
 		(stroke
@@ -3863,16 +4167,6 @@
 			(type default)
 		)
 		(uuid "2b4b6b60-02e4-4b78-b727-1c2df8d34f4c")
-	)
-	(wire
-		(pts
-			(xy 67.31 63.5) (xy 74.93 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2b5249f7-5aa2-4bda-be6e-37a4f76b7a0e")
 	)
 	(wire
 		(pts
@@ -3933,6 +4227,16 @@
 			(type default)
 		)
 		(uuid "46cf5a5f-4a81-4c92-9577-2f08e153f80f")
+	)
+	(wire
+		(pts
+			(xy 74.93 58.42) (xy 77.47 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47414e7c-ee21-4d59-beeb-d3789a8f62d0")
 	)
 	(wire
 		(pts
@@ -4046,16 +4350,6 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 43.18) (xy 88.9 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5c1a5589-4c9c-40f9-a036-f4a604877914")
-	)
-	(wire
-		(pts
 			(xy 152.4 44.45) (xy 152.4 46.99)
 		)
 		(stroke
@@ -4106,6 +4400,16 @@
 	)
 	(wire
 		(pts
+			(xy 82.55 68.58) (xy 85.09 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f9807a2-99c7-4c6b-8635-2bdad9b0ec39")
+	)
+	(wire
+		(pts
 			(xy 59.69 127) (xy 59.69 129.54)
 		)
 		(stroke
@@ -4143,16 +4447,6 @@
 			(type default)
 		)
 		(uuid "73986d9c-1f34-45cd-92af-0ce62c4e7d2a")
-	)
-	(wire
-		(pts
-			(xy 67.31 43.18) (xy 74.93 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "74c4a4bb-eb77-48d1-93fd-471b19a09b33")
 	)
 	(wire
 		(pts
@@ -4226,16 +4520,6 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 63.5) (xy 88.9 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7ed321e2-1d2b-41ca-b7b6-b8c1e987686b")
-	)
-	(wire
-		(pts
 			(xy 127 118.11) (xy 127 132.08)
 		)
 		(stroke
@@ -4276,6 +4560,16 @@
 	)
 	(wire
 		(pts
+			(xy 67.31 63.5) (xy 74.93 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8acfd989-f748-4c4e-8b22-322f28f4a620")
+	)
+	(wire
+		(pts
 			(xy 109.22 74.93) (xy 115.57 74.93)
 		)
 		(stroke
@@ -4283,6 +4577,16 @@
 			(type default)
 		)
 		(uuid "8b290580-7cf7-49ec-b405-4ef727c8396c")
+	)
+	(wire
+		(pts
+			(xy 77.47 68.58) (xy 74.93 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b818b01-3fd5-41bb-b583-233109e1bbd2")
 	)
 	(wire
 		(pts
@@ -4366,6 +4670,16 @@
 	)
 	(wire
 		(pts
+			(xy 77.47 48.26) (xy 74.93 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f1dfd5a-5d8f-4528-80d9-67f0232a6bd3")
+	)
+	(wire
+		(pts
 			(xy 66.04 173.99) (xy 66.04 179.07)
 		)
 		(stroke
@@ -4436,6 +4750,16 @@
 	)
 	(wire
 		(pts
+			(xy 82.55 48.26) (xy 85.09 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b264a811-f9a6-483e-8365-7b179f9f11bd")
+	)
+	(wire
+		(pts
 			(xy 40.64 63.5) (xy 59.69 63.5)
 		)
 		(stroke
@@ -4443,6 +4767,16 @@
 			(type default)
 		)
 		(uuid "b59c007a-8564-4c9c-8c89-347575b6191c")
+	)
+	(wire
+		(pts
+			(xy 74.93 68.58) (xy 74.93 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b755a757-6cff-4791-ad24-c5a109f5b6c2")
 	)
 	(wire
 		(pts
@@ -4546,6 +4880,26 @@
 	)
 	(wire
 		(pts
+			(xy 82.55 58.42) (xy 85.09 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9587ec9-849f-4e19-ab5b-5999f81ad998")
+	)
+	(wire
+		(pts
+			(xy 82.55 38.1) (xy 85.09 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc39adf8-9e37-4647-a8ea-df6bced39df2")
+	)
+	(wire
+		(pts
 			(xy 241.3 71.12) (xy 243.84 73.66)
 		)
 		(stroke
@@ -4553,6 +4907,16 @@
 			(type default)
 		)
 		(uuid "e14e9be6-f794-453b-92e1-df4b2c6d0767")
+	)
+	(wire
+		(pts
+			(xy 74.93 48.26) (xy 74.93 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4d4dd17-5319-4e5f-8f10-c9850202d51e")
 	)
 	(wire
 		(pts
@@ -4593,6 +4957,16 @@
 			(type default)
 		)
 		(uuid "f688ccec-1326-46e1-8225-a6e1e2dbb66e")
+	)
+	(wire
+		(pts
+			(xy 74.93 38.1) (xy 77.47 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8217ef4-5b00-432d-ad97-b5c078267ee0")
 	)
 	(wire
 		(pts
@@ -5014,6 +5388,16 @@
 		)
 		(uuid "9459197e-c0b8-4130-94d3-5efa0a23ac55")
 	)
+	(label "MIX_L"
+		(at 88.9 43.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "95f3dc9a-a028-40d4-a5de-93f599334782")
+	)
 	(label "OPN_D1"
 		(at 233.68 81.28 180)
 		(effects
@@ -5063,16 +5447,6 @@
 			(justify left bottom)
 		)
 		(uuid "af1c5f9e-b911-4b3c-82de-2b9d25977275")
-	)
-	(label "MIX_L"
-		(at 88.9 43.18 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "af63aef2-6e4a-4150-a576-54361f22f4ff")
 	)
 	(label "MIX_R"
 		(at 88.9 147.32 0)
@@ -5376,7 +5750,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 81.28 168.91 0)
 			(hide yes)
 			(show_name no)
@@ -5387,7 +5761,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.koaspeer.com/pdfs/RK73H.pdf"
 			(at 81.28 168.91 0)
 			(hide yes)
 			(show_name no)
@@ -5401,6 +5775,26 @@
 		(property "Description" "Resistor, small US symbol"
 			(at 81.28 168.91 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PN" "RK73H1JTTD2103F"
+			(at -87.63 250.19 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey PN" "2019-RK73H1JTTD2103FTR-ND"
+			(at -87.63 250.19 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5772,7 +6166,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 132.08 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -5783,7 +6177,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.koaspeer.com/pdfs/SG73P.pdf"
 			(at 132.08 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -5796,6 +6190,28 @@
 		)
 		(property "Description" "Resistor, small US symbol"
 			(at 132.08 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PN" "SG73P1JTTD3300F"
+			(at 132.08 101.6 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey PN" "2019-SG73P1JTTD3300FTR-ND"
+			(at 132.08 101.6 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6008,7 +6424,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 64.77 127 0)
 			(hide yes)
 			(show_name no)
@@ -6019,7 +6435,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/378/EMK107B7105KA-T_SS.pdf"
 			(at 64.77 127 0)
 			(hide yes)
 			(show_name no)
@@ -6033,6 +6449,26 @@
 		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 64.77 127 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey PN" "587-1241-2-ND"
+			(at -62.23 191.77 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PN" "EMK107B7105KA-T"
+			(at -62.23 191.77 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6316,7 +6752,7 @@
 				)
 			)
 		)
-		(property "Value" "TL072"
+		(property "Value" "TL972"
 			(at 117.348 93.472 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6337,7 +6773,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl071.pdf"
+		(property "Datasheet" "https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=https%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftl971"
 			(at 116.84 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -6349,6 +6785,28 @@
 			)
 		)
 		(property "Description" "Dual Low-Noise JFET-Input Operational Amplifiers, DIP-8/SOIC-8"
+			(at 116.84 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey PN" "296-22842-2-ND"
+			(at 116.84 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PN" "TL972IDR"
 			(at 116.84 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -6398,7 +6856,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -6711,7 +7169,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -6727,7 +7185,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "YM2612 Socket"
+		(property "Value" "DIP24 Header"
 			(at 199.136 73.66 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6749,7 +7207,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://ddraig68k.com/assets/files/datasheets/YM2612.pdf"
+		(property "Datasheet" "http://www.cnctech.us/pdfs/220-1-XX-00X_.pdf"
 			(at 193.04 119.888 0)
 			(hide yes)
 			(show_name no)
@@ -6762,6 +7220,28 @@
 		)
 		(property "Description" "Yamaha 6-channel, 4-OP, FM sound generator (with built-in 9-bit DAC), sine-wave LFO, 8-bit PCM channel (DAC mode), DIP-24 (600 mil)"
 			(at 193.04 117.856 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey PN" "1175-1524-5-ND"
+			(at 193.04 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PN" "220-1-24-006"
+			(at 193.04 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6884,7 +7364,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 64.77 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -6895,7 +7375,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/8942/490_Chip_Multilayer_CAT2021_MLCC.pdf"
 			(at 64.77 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -6908,6 +7388,28 @@
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 64.77 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PN" "GRM188R61C106MAALD"
+			(at 64.77 43.18 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey PN" "490-10729-2-ND"
+			(at 64.77 43.18 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6964,7 +7466,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 118.11 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -6975,7 +7477,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/docs/28700/mcx0x0xpre.pdf"
 			(at 118.11 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -6989,6 +7491,26 @@
 		(property "Description" "Resistor, small US symbol"
 			(at 118.11 132.08 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey PN" "749-MCT06030D3003BP500TR-ND"
+			(at -13.97 250.19 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PN" "MCT06030D3003BP500"
+			(at -13.97 250.19 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7100,7 +7622,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -7179,10 +7701,10 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "2e42997f-f353-443c-b7b5-8dd805dcfefb")
 		(property "Reference" "U3"
 			(at 250.19 70.866 0)
@@ -7352,7 +7874,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 77.47 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -7363,7 +7885,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.koaspeer.com/pdfs/RK73H.pdf"
 			(at 77.47 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -7376,6 +7898,28 @@
 		)
 		(property "Description" "Resistor, small US symbol"
 			(at 77.47 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PN" "RK73H1JTTD2103F"
+			(at 77.47 85.09 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey PN" "2019-RK73H1JTTD2103FTR-ND"
+			(at 77.47 85.09 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7525,7 +8069,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS08"
+		(property "Datasheet" "https://www.ti.com/lit/ds/scls063e/scls063e.pdf"
 			(at 210.82 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -7537,6 +8081,28 @@
 			)
 		)
 		(property "Description" "Quad And2"
+			(at 210.82 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey PN" "296-14862-2-ND"
+			(at 210.82 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PN" "SN74HCT08DR"
 			(at 210.82 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -7599,6 +8165,113 @@
 		)
 	)
 	(symbol
+		(lib_id "Jumper:SolderJumper_3_Open")
+		(at 85.09 43.18 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "388f3933-8944-4d4e-9da6-2be484d36608")
+		(property "Reference" "JP1"
+			(at 82.55 41.9099 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SolderJumper_3_Open"
+			(at 82.55 44.4499 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-3_P2.0mm_Open_TrianglePad1.0x1.5mm"
+			(at 85.09 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 100.33 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Solder Jumper, 3-pole, open"
+			(at 97.79 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property private "KLC_S5.1" "This is a generic symbol, it has fp-filter, but no default footprint"
+			(at 102.87 43.18 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property private "KLC_S3.3" "Graphical-Symbol: thickness is 6mm, fill is background"
+			(at 105.41 43.18 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "4121a5ad-0d72-43ca-8134-db8df42aa855")
+		)
+		(pin "1"
+			(uuid "56ef3407-e71c-4bca-a152-f04db0d8a375")
+		)
+		(pin "3"
+			(uuid "34f03693-fffd-4dfe-b1eb-fe195a58f816")
+		)
+		(instances
+			(project "md-opn2c"
+				(path "/f9b9b574-6fa4-4adc-a783-fdf6fb757948"
+					(reference "JP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small_US")
 		(at 118.11 88.9 90)
 		(unit 1)
@@ -7630,7 +8303,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 118.11 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -7641,7 +8314,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/docs/28700/mcx0x0xpre.pdfhttps://www.vishay.com/docs/28700/mcx0x0xpre.pdf"
 			(at 118.11 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -7654,6 +8327,28 @@
 		)
 		(property "Description" "Resistor, small US symbol"
 			(at 118.11 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PN" "MCT06030D3003BP500"
+			(at 118.11 88.9 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey PN" "749-MCT06030D3003BP500TR-ND"
+			(at 118.11 88.9 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7792,7 +8487,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 118.11 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -7803,7 +8498,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/KEM_C1007_X8R_ULTRA_150C_SMD"
 			(at 118.11 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -7817,6 +8512,26 @@
 		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 118.11 118.11 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey PN" "399-C0603C330K4HACTUTR-ND"
+			(at 0 236.22 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PN" "C0603C330K4HACTU"
+			(at 0 236.22 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7950,7 +8665,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 71.12 168.91 0)
 			(hide yes)
 			(show_name no)
@@ -7961,7 +8676,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/378/EMK107B7105KA-T_SS.pdf"
 			(at 71.12 168.91 0)
 			(hide yes)
 			(show_name no)
@@ -7975,6 +8690,26 @@
 		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 71.12 168.91 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey PN" "587-1241-2-ND"
+			(at -97.79 240.03 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PN" "EMK107B7105KA-T"
+			(at -97.79 240.03 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8030,7 +8765,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 77.47 127 0)
 			(hide yes)
 			(show_name no)
@@ -8041,7 +8776,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.koaspeer.com/pdfs/RK73H.pdf"
 			(at 77.47 127 0)
 			(hide yes)
 			(show_name no)
@@ -8055,6 +8790,26 @@
 		(property "Description" "Resistor, small US symbol"
 			(at 77.47 127 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PN" "RK73H1JTTD2103F"
+			(at -49.53 204.47 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey PN" "2019-RK73H1JTTD2103FTR-ND"
+			(at -49.53 204.47 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8084,7 +8839,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -8163,7 +8918,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -8439,7 +9194,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS08"
+		(property "Datasheet" "https://www.ti.com/lit/ds/scls063e/scls063e.pdf"
 			(at 210.82 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -8451,6 +9206,28 @@
 			)
 		)
 		(property "Description" "Quad And2"
+			(at 210.82 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey PN" "296-14862-2-ND"
+			(at 210.82 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PN" "SN74HCT08DR"
 			(at 210.82 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -8700,7 +9477,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 118.11 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -8711,7 +9488,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/KEM_C1007_X8R_ULTRA_150C_SMD"
 			(at 118.11 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -8724,6 +9501,28 @@
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 118.11 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PN" "C0603C330K4HACTU"
+			(at 118.11 74.93 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey PN" "399-C0603C330K4HACTUTR-ND"
+			(at 118.11 74.93 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8754,7 +9553,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -8859,7 +9658,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 116.84 177.8 0)
 			(hide yes)
 			(show_name no)
@@ -8870,7 +9669,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.koaspeer.com/pdfs/RK73H.pdf"
 			(at 116.84 177.8 0)
 			(hide yes)
 			(show_name no)
@@ -8883,6 +9682,28 @@
 		)
 		(property "Description" "Resistor, small US symbol"
 			(at 116.84 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey PN" "2019-RK73H1JTTD1003FTR-ND"
+			(at 116.84 177.8 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PN" "RK73H1JTTD1003F"
+			(at 116.84 177.8 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9070,7 +9891,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -9145,6 +9966,108 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
+		(at 80.01 48.26 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "919a0bda-69b5-4881-b96f-2cf2201c6c4f")
+		(property "Reference" "R24"
+			(at 80.01 41.91 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 80.01 44.45 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 80.01 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf"
+			(at 80.01 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 80.01 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey PN" "P210KHTR-ND"
+			(at 80.01 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PN" "ERJ-3EKF2103V"
+			(at 80.01 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "0444642d-239e-4ac5-ba72-953731e00c42")
+		)
+		(pin "1"
+			(uuid "e041950f-9013-4175-9532-e2e0f5ae158e")
+		)
+		(instances
+			(project "md-opn2c"
+				(path "/f9b9b574-6fa4-4adc-a783-fdf6fb757948"
+					(reference "R24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
 		(at 152.4 52.07 180)
 		(unit 1)
 		(body_style 1)
@@ -9177,7 +10100,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 152.4 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -9188,7 +10111,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf"
 			(at 152.4 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -9200,6 +10123,28 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
+			(at 152.4 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey PN" "P210KHTR-ND"
+			(at 152.4 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PN" "ERJ-3EKF2103V"
 			(at 152.4 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -9257,7 +10202,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 64.77 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -9268,7 +10213,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/378/EMK107B7105KA-T_SS.pdf"
 			(at 64.77 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -9282,6 +10227,26 @@
 		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 64.77 105.41 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey PN" "587-1241-2-ND"
+			(at -40.64 170.18 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PN" "EMK107B7105KA-T"
+			(at -40.64 170.18 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9350,7 +10315,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS08"
+		(property "Datasheet" "https://www.ti.com/lit/ds/scls063e/scls063e.pdf"
 			(at 182.88 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -9362,6 +10327,28 @@
 			)
 		)
 		(property "Description" "Quad And2"
+			(at 182.88 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey PN" "296-14862-2-ND"
+			(at 182.88 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PN" "SN74HCT08DR"
 			(at 182.88 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -9424,39 +10411,41 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small_US")
-		(at 77.47 43.18 90)
+		(lib_id "Jumper:SolderJumper_3_Open")
+		(at 85.09 63.5 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "9b243d97-4ac3-49f2-9cad-171108d4564b")
-		(property "Reference" "R8"
-			(at 77.47 36.83 90)
+		(uuid "9ac5aea6-6cd4-4175-809d-74eb97ec5131")
+		(property "Reference" "JP2"
+			(at 82.55 62.2299 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "100k"
-			(at 77.47 39.37 90)
+		(property "Value" "SolderJumper_3_Open"
+			(at 82.55 64.7699 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 77.47 43.18 0)
+		(property "Footprint" "Jumper:SolderJumper-3_P2.0mm_Open_TrianglePad1.0x1.5mm"
+			(at 85.09 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9467,7 +10456,112 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 77.47 43.18 0)
+			(at 100.33 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Solder Jumper, 3-pole, open"
+			(at 97.79 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property private "KLC_S5.1" "This is a generic symbol, it has fp-filter, but no default footprint"
+			(at 102.87 63.5 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property private "KLC_S3.3" "Graphical-Symbol: thickness is 6mm, fill is background"
+			(at 105.41 63.5 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "d42c6c8e-dfcc-4831-abaa-1bf67303deeb")
+		)
+		(pin "1"
+			(uuid "4fdce0d3-b5a9-4611-9d12-cfcc592a78dd")
+		)
+		(pin "3"
+			(uuid "f22e16d5-ee44-460b-bbe9-062497e406be")
+		)
+		(instances
+			(project "md-opn2c"
+				(path "/f9b9b574-6fa4-4adc-a783-fdf6fb757948"
+					(reference "JP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 80.01 38.1 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9b243d97-4ac3-49f2-9cad-171108d4564b")
+		(property "Reference" "R8"
+			(at 80.01 31.75 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100k"
+			(at 80.01 34.29 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 80.01 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.koaspeer.com/pdfs/RK73H.pdf"
+			(at 80.01 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9478,7 +10572,29 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
-			(at 77.47 43.18 0)
+			(at 80.01 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey PN" "2019-RK73H1JTTD1003FTR-ND"
+			(at 80.01 38.1 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PN" "RK73H1JTTD1003F"
+			(at 80.01 38.1 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9546,7 +10662,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS08"
+		(property "Datasheet" "https://www.ti.com/lit/ds/scls063e/scls063e.pdf"
 			(at 248.92 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -9558,6 +10674,28 @@
 			)
 		)
 		(property "Description" "Quad And2"
+			(at 248.92 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey PN" "296-14862-2-ND"
+			(at 248.92 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PN" "SN74HCT08DR"
 			(at 248.92 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -9651,7 +10789,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 77.47 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -9662,7 +10800,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.koaspeer.com/pdfs/RK73H.pdf"
 			(at 77.47 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -9676,6 +10814,26 @@
 		(property "Description" "Resistor, small US symbol"
 			(at 77.47 147.32 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PN" "RK73H1JTTD2103F"
+			(at -69.85 224.79 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey PN" "2019-RK73H1JTTD2103FTR-ND"
+			(at -69.85 224.79 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9799,7 +10957,7 @@
 				)
 			)
 		)
-		(property "Value" "TL072"
+		(property "Value" "TL972"
 			(at 117.856 135.89 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9820,7 +10978,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl071.pdf"
+		(property "Datasheet" "https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=https%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftl971"
 			(at 116.84 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -9832,6 +10990,28 @@
 			)
 		)
 		(property "Description" "Dual Low-Noise JFET-Input Operational Amplifiers, DIP-8/SOIC-8"
+			(at 116.84 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey PN" "296-22842-2-ND"
+			(at 116.84 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PN" "TL972IDR"
 			(at 116.84 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -9907,7 +11087,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 64.77 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -9918,7 +11098,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/378/EMK107B7105KA-T_SS.pdf"
 			(at 64.77 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -9932,6 +11112,26 @@
 		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 64.77 147.32 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey PN" "587-1241-2-ND"
+			(at -82.55 212.09 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PN" "EMK107B7105KA-T"
+			(at -82.55 212.09 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10065,7 +11265,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 77.47 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -10076,7 +11276,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.koaspeer.com/pdfs/RK73H.pdf"
 			(at 77.47 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -10090,6 +11290,26 @@
 		(property "Description" "Resistor, small US symbol"
 			(at 77.47 105.41 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PN" "RK73H1JTTD2103F"
+			(at -27.94 182.88 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey PN" "2019-RK73H1JTTD2103FTR-ND"
+			(at -27.94 182.88 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10155,7 +11375,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS08"
+		(property "Datasheet" "https://www.ti.com/lit/ds/scls063e/scls063e.pdf"
 			(at 248.92 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -10167,6 +11387,28 @@
 			)
 		)
 		(property "Description" "Quad And2"
+			(at 248.92 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey PN" "296-14862-2-ND"
+			(at 248.92 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PN" "SN74HCT08DR"
 			(at 248.92 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -10230,7 +11472,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 77.47 63.5 90)
+		(at 80.01 58.42 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10241,7 +11483,7 @@
 		(fields_autoplaced yes)
 		(uuid "bc88f5ab-36f2-4524-ae1e-0116cc6ad0b4")
 		(property "Reference" "R9"
-			(at 77.47 57.15 90)
+			(at 80.01 52.07 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10251,7 +11493,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 77.47 59.69 90)
+			(at 80.01 54.61 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10260,8 +11502,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 77.47 63.5 0)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 80.01 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10271,8 +11513,8 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 77.47 63.5 0)
+		(property "Datasheet" "https://www.koaspeer.com/pdfs/RK73H.pdf"
+			(at 80.01 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10283,7 +11525,29 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
-			(at 77.47 63.5 0)
+			(at 80.01 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey PN" "2019-RK73H1JTTD1003FTR-ND"
+			(at 80.01 58.42 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PN" "RK73H1JTTD1003F"
+			(at 80.01 58.42 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10392,7 +11656,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -10510,7 +11774,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/860010372001.pdf"
 			(at 133.35 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -10522,6 +11786,28 @@
 			)
 		)
 		(property "Description" "Polarized capacitor, small symbol"
+			(at 133.35 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PN" "860010372001"
+			(at 133.35 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey PN" "732-8593-1-ND"
 			(at 133.35 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -10553,7 +11839,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -10658,7 +11944,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 81.28 179.07 0)
 			(hide yes)
 			(show_name no)
@@ -10669,7 +11955,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.koaspeer.com/pdfs/RK73H.pdf"
 			(at 81.28 179.07 0)
 			(hide yes)
 			(show_name no)
@@ -10683,6 +11969,26 @@
 		(property "Description" "Resistor, small US symbol"
 			(at 81.28 179.07 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PN" "RK73H1JTTD2103F"
+			(at -97.79 260.35 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey PN" "2019-RK73H1JTTD2103FTR-ND"
+			(at -97.79 260.35 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10738,7 +12044,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 132.08 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -10749,7 +12055,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.koaspeer.com/pdfs/SG73P.pdf"
 			(at 132.08 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -10762,6 +12068,27 @@
 		)
 		(property "Description" "Resistor, small US symbol"
 			(at 132.08 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey PN" "2019-SG73P1JTTD3300FTR-ND"
+			(at -12.7 276.86 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PN" "SG73P1JTTD3300F"
+			(at 132.08 144.78 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11052,7 +12379,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 116.84 167.64 0)
 			(hide yes)
 			(show_name no)
@@ -11063,7 +12390,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.koaspeer.com/pdfs/RK73H.pdf"
 			(at 116.84 167.64 0)
 			(hide yes)
 			(show_name no)
@@ -11076,6 +12403,28 @@
 		)
 		(property "Description" "Resistor, small US symbol"
 			(at 116.84 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey PN" "2019-RK73H1JTTD1003FTR-ND"
+			(at 116.84 167.64 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PN" "RK73H1JTTD1003F"
+			(at 116.84 167.64 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11123,7 +12472,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TL072"
+		(property "Value" "TL972"
 			(at 163.83 48.2599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11145,7 +12494,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl071.pdf"
+		(property "Datasheet" "https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=https%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftl971"
 			(at 165.1 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -11157,6 +12506,28 @@
 			)
 		)
 		(property "Description" "Dual Low-Noise JFET-Input Operational Amplifiers, DIP-8/SOIC-8"
+			(at 165.1 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey PN" "296-22842-2-ND"
+			(at 165.1 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PN" "TL972IDR"
 			(at 165.1 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -11243,7 +12614,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/860020472006.pdf"
 			(at 139.7 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -11256,6 +12627,28 @@
 		)
 		(property "Description" "Polarized capacitor, small symbol"
 			(at 139.7 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PN" "860020472006"
+			(at 139.7 101.6 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey PN" "732-8823-1-ND"
+			(at 139.7 101.6 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11314,7 +12707,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 152.4 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -11325,7 +12718,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf"
 			(at 152.4 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -11337,6 +12730,28 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
+			(at 152.4 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey PN" "P210KHTR-ND"
+			(at 152.4 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PN" "ERJ-3EKF2103V"
 			(at 152.4 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -11476,7 +12891,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 64.77 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -11487,7 +12902,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/378/EMK107B7105KA-T_SS.pdf"
 			(at 64.77 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -11500,6 +12915,28 @@
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 64.77 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PN" "EMK107B7105KA-T"
+			(at 64.77 85.09 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey PN" "587-1241-2-ND"
+			(at 64.77 85.09 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11556,7 +12993,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 71.12 179.07 0)
 			(hide yes)
 			(show_name no)
@@ -11567,7 +13004,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/378/EMK107B7105KA-T_SS.pdf"
 			(at 71.12 179.07 0)
 			(hide yes)
 			(show_name no)
@@ -11581,6 +13018,26 @@
 		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 71.12 179.07 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey PN" "587-1241-2-ND"
+			(at -107.95 250.19 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PN" "EMK107B7105KA-T"
+			(at -107.95 250.19 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11647,7 +13104,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/860020472006.pdf"
 			(at 139.7 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -11661,6 +13118,26 @@
 		(property "Description" "Polarized capacitor, small symbol"
 			(at 139.7 144.78 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PN" "860020472006"
+			(at -5.08 284.48 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey PN" "732-8823-1-ND"
+			(at -5.08 284.48 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11716,7 +13193,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 64.77 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -11727,7 +13204,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/8942/490_Chip_Multilayer_CAT2021_MLCC.pdf"
 			(at 64.77 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -11749,6 +13226,26 @@
 				)
 			)
 		)
+		(property "Digikey PN" "490-10729-2-ND"
+			(at 1.27 128.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PN" "GRM188R61C106MAALD"
+			(at 1.27 128.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "6879c922-00df-4d1b-b12b-85979ac9471e")
 		)
@@ -11759,6 +13256,108 @@
 			(project "md-opn2c"
 				(path "/f9b9b574-6fa4-4adc-a783-fdf6fb757948"
 					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 80.01 68.58 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fec57c6d-6d09-4b69-b678-5e52bb2a3dd0")
+		(property "Reference" "R25"
+			(at 80.01 62.23 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 80.01 64.77 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 80.01 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf"
+			(at 80.01 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 80.01 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey PN" "P210KHTR-ND"
+			(at 80.01 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PN" "ERJ-3EKF2103V"
+			(at 80.01 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "8299d80e-161a-4c79-a56a-b68f66485b6d")
+		)
+		(pin "1"
+			(uuid "8c46ede2-ca12-4e48-841d-efa600deaf93")
+		)
+		(instances
+			(project "md-opn2c"
+				(path "/f9b9b574-6fa4-4adc-a783-fdf6fb757948"
+					(reference "R25")
 					(unit 1)
 				)
 			)

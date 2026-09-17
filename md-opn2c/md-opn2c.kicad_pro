@@ -60,13 +60,13 @@
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
-          "min_clearance": 0.25,
+          "min_clearance": 0.3,
           "min_island_area": 10.0,
           "min_thickness": 0.125,
           "pad_connection": 1,
           "remove_islands": 0,
-          "thermal_relief_gap": 0.5,
-          "thermal_relief_spoke_width": 0.5
+          "thermal_relief_gap": 0.25,
+          "thermal_relief_spoke_width": 0.25
         }
       },
       "diff_pair_dimensions": [
@@ -115,18 +115,6 @@
         ],
         [
           "silk_overlap|54670000|34400000|916dce4d-d795-4861-a68b-db70840de20f|d0904e18-49e7-4a70-8b47-2121cb31f51b",
-          ""
-        ],
-        [
-          "silk_overlap|69000000|42255479|7bf69e4f-f38c-4a4e-a781-114cae8b0eb5|89684aa9-1902-4979-b61a-51d37f8dc155",
-          ""
-        ],
-        [
-          "silk_overlap|74962085|40834367|7bf69e4f-f38c-4a4e-a781-114cae8b0eb5|8ec33932-814c-4c85-9ca7-4e682725e93b",
-          ""
-        ],
-        [
-          "silk_overlap|74962085|42255479|4d012340-0b0d-48fd-adb2-a576c5244673|7bf69e4f-f38c-4a4e-a781-114cae8b0eb5",
           ""
         ]
       ],
@@ -605,7 +593,7 @@
       "method": 0,
       "sort_order": 0
     },
-    "bom_export_filename": "${PROJECTNAME}.csv",
+    "bom_export_filename": "gerbils/md-opn2c-bom.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -639,22 +627,22 @@
           "show": true
         },
         {
-          "group_by": true,
+          "group_by": false,
           "label": "DNP",
           "name": "${DNP}",
-          "show": true
+          "show": false
         },
         {
-          "group_by": true,
+          "group_by": false,
           "label": "Exclude from BOM",
           "name": "${EXCLUDE_FROM_BOM}",
-          "show": true
+          "show": false
         },
         {
-          "group_by": true,
+          "group_by": false,
           "label": "Exclude from Board",
           "name": "${EXCLUDE_FROM_BOARD}",
-          "show": true
+          "show": false
         },
         {
           "group_by": true,
@@ -667,12 +655,36 @@
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PN",
+          "name": "PN",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Digikey PN",
+          "name": "Digikey PN",
+          "show": true
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "Default Editing",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },

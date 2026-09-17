@@ -4,17 +4,23 @@
 
 ![Installed unit](guide-img/installed.jpeg)
 
-メガドライブ（初代）VA0-VA6は互換です。 ジェネシス２のVA3でも動くかもしれませんが、未確認なので一応保証ができません。
-Compatible with Genesis 1 / Megadrive 1 VA0-VA6. Genesis 2 VA3 (with discrete YM2612) may work, but has not been tested, and I cannot provide installation instructions at this time. 
-
 # 概要・Overview
 このアダプターでメガドライブ初代はYM3438(OPN2C)が対応できるようになります。　元々の音源のステータスレジスターの読み込みの違いを解決するとジックがついています。　その上[オープンソースのとリップルバイパス](https://github.com/tianfeng33/triple-bypass-Version-2))より綺麗な音源のミクサーとバッファーがついていて、元々のヘッドホンも専用ライン出力が使えるようになります。
+
+元々のFM音源(YM2612)を抜いて使用することも可能です。　その場合は[3BP](https://github.com/tianfeng33/triple-bypass-Version-2))と同じような使い方になります。　その場合でもヘッドホンもラインアウトも利用できます。
 
 メガドラVA0の基板を参考しながら書いたんですが、基本的にすべての初代の基板は互換はずです。
 
 This adapter facilitates the install of a YM3438 (OPN2C) in a Sega Mega Drive or Genesis console. Glue logic is present to solve status read bugs that invoke different behavior between the original YM2612 and the CMOS YM3438. In addition, a mixing and buffering circuit (courtesy of [the open source Triple Bypass PCB](https://github.com/tianfeng33/triple-bypass-Version-2)) to both handle the new YM3438 and also provide clean mixing for other signals. The buffer circuit also has provisions to output audio to the original signal path, so that the mono audio output and the headphone jack both work as designed.
 
+An original YM2612 may also be installed, in which case this PCB simply provides a new mixing circuit and buffer, similar to the [Triple Bypass PCB](https://github.com/tianfeng33/triple-bypass-Version-2)).
+
 These instructions were written using a Japanese VA0 unit as a reference, but principally can apply to any Megadrive or Genesis with a YM2612 in it.
+
+## 互換の本体・Compatibility
+
+メガドライブ（初代）VA0-VA6は互換です。 ジェネシス２のVA3でも動くかもしれませんが、未確認なので一応保証ができません。
+Compatible with Genesis 1 / Megadrive 1 VA0-VA6. Genesis 2 VA3 (with discrete YM2612) may work, but has not been tested, and I cannot provide installation instructions at this time.
 
 # 設置・Installation
 
@@ -44,11 +50,20 @@ As there is no silkscreen on the underside of most revisions, the diagram will b
 
 The new audio will enter through what used to be the MOL and MOR pins for the OPN2, at pins 21 and 20 respectively. The mixed stereo signals enter the original mixing circuit alone, where it then enters the headphone amp as well as the mono mixdown for the CXA-1145.
 
-### （随意）オペアンプをグレードアップ・Optional op-amp Upgrade
+## 音源付け方・Installation of FM Sound Source
 
-必要ではないんですが、モノの出力が使用なら元々のLM324(IC14) をよりいい物に交換したほうがマシです。　色々が使えますが、とりあえず[consolemods](https://consolemods.org/wiki/Genesis:Audio_Circuit_Mod)よりおすすめはTL974IかMC34074です (DIP8).
+YM3438か先抜いたYM2612をアダプターの上面に付けます。　下面にピンが邪魔になってしまうので上面にハンダ付けても大丈夫です。　音源のICは完全に平にならないんですが、全ての端子がちゃんとついていたら問題がありません　(少距離は大丈夫です)。
 
-It is optional but recommended to remove the original LM324 op-amp (IC14) that buffers mono audio output with a better unit. Courtesy of [consolemods](https://consolemods.org/wiki/Genesis:Audio_Circuit_Mod) many options exist, but I'll quote TL974I or MC34074 as the first options on their list. This is a DIP8 package.
+アダプターのウラ面にジャンパーがあります。　音源の種類によって左側か右側を半田で閉めて下さい。　両方のジャンパーを同じ設置するようにご注意下さい。
+
+Attach either a YM3438 or the previously removed YM2612 in the open position on the adapter PCB. As the header pins on the underside may obstruct your soldering, it is fine to apply solder on the top side. The IC may not lay perfectly flat, but if all pins are firmly soldered a slight distance is acceptable.
+
+On the underside of the adapter, use solder to close the jumpers based on the sound source type. You must set both sets of jumpers in the same configuration.
+
+| 設定Config | IC類Chip |
+|------------|----------|
+| `(x x .)`  | YM2612   |
+| `(. x x)`  | YM3438   |
 
 ## 基板の付け方・Installation in Megadrive
 
@@ -76,60 +91,11 @@ Place the assembled YM3438 adapter unit in the position that once held the origi
 
 With everything installed, it's up to you how you want to route the audio out. If the headphone jack alone is adequate, you may stop here. However, I recommend a dedicated line out connection, as the headphone amp does introduce some noise.
 
-The 'OUT' pads is present so you may run a stereo output to the back of the console, or to some other connector of your choosing. Stereo audio will be present via the headphone jack, and mono audio will be delivered out of the rear A/V connector.
+The 'LINE OUT' pads are present so you may run a stereo output to the back of the console, or to some other connector of your choosing. Stereo audio will be present via the headphone jack, and mono audio will be delivered out of the rear A/V connector.
 
-# 手作り説明・Kit Assembly Guide
+# フィルター調整・Filter Adjustment
 
-この部分は部品で０から作る方用です。
+アダプタのLPFフィルターの遮断周波数は約16KHzになっていますが、もしVA3みたいな~3KHzは希望だったらコンデンサー交換通じて可能です。　示しているコンデンサーを150Pfに交換すると、LPFの遮断周波数は~3KHzになります。　元々のは33pFです。
 
-This section is for hand-assembling the adapter from scratch.
+The filter situated on the adapter has a fairly high cutoff frequency of about 16KHz. Unlike the triple bypass PCB, there isn't a selection of filter parameters, but if a stronger filter that sounds similar to the VA3 is desired, you may exchange the two highlighted capacitors for 150pF units to achieve a ~3.5KHz cutoff. The originals are 33pF.
 
-## 部品表・Parts List
-
-すべてのSMD部品は2012サイズになります。
-
-All SMD capacitors and resistors are of size 0805 (2012 metric).
-
-- 2 x 12 machine pin header strips or 24 pin DIP header
-- 1 x YM3438 IC (DIP24)
-- 1 x 74HCT08 (SOIC-14)
-- 1 x TL972 or similar dual op-amp (SOIC-8)
-- 1 x Optional TL972 or similar dual op-amp (DIP-8)
-- 2 x 47uF 50V electrolytic capacitor
-- 1 x 10uf 16V electrolytic capacitor
-- 2 x 10uF/16V SMD capacitor
-- 6 x 1uF/16V SMD capacitor
-- 2 x 150pF/50V SMD capacitor
-- 2 x 330 ohm SMD resistor
-- 4 x 10k ohm SMD resistor
-- 4 x 100k ohm SMD resistor
-- 6 x 210k ohm SMD resistor
-- 2 x 300k ohm SMD resistor
-
-## 作り方・Assembly Process
-
-表の隠折に部品を付けます。
-Populate the components as labeled:
-
-| Designator         | Part            |
-|--------------------|-----------------|
-| C1-C2              | 10uF / 16V      |
-| C3-C8              | 1uF / 16V       |
-| C9-C10             | 150pF / 50V     |
-| C11                | 10uF/16V TH     |
-| C12-C13            | 10uF / 16V TH   |
-| C14-C15            | 47uF / 50V      |
-| R8-R9, R22-R23     | 100k            |
-| R10-R13, R14-R15   | 210k            |
-| R16-R17            | 300k            |
-| R20-R21            | 10k             |
-| R18-R19            | 330             |
-| U1                 | TL972           |
-| U3                 | 74HCT08         |
-| U4                 | YM3438 (OPN2C)  |
-
-遅住めは、最初ICを付けたらSMDのやつを付けて終えます。それから下向けのピンを付けて、上面からYM3438をハンダ付けます。
-
-I recommend installing the two SMT ICs (TL972 and 74HCT08), followed by the SMT capacitors and resistors, and finally the through-hole parts.
-
-You must install the 74HCT08 and at least the top pin strip before installing the YM3438, or you will not be able to access them. The YM3438 will not sit entirely flat, but this is normal.
