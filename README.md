@@ -62,8 +62,8 @@ On the underside of the adapter, use solder to close the jumpers based on the so
 
 | 設定Config | IC類Chip |
 |------------|----------|
-| `(x x .)`  | YM2612   |
-| `(. x x)`  | YM3438   |
+| `(---  )`  | YM2612   |
+| `(  ---)`  | YM3438   |
 
 ## 基板の付け方・Installation in Megadrive
 
