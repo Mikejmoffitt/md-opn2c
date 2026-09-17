@@ -4,7 +4,7 @@
 "C9,C10","2","33pF/50V","Capacitor_SMD:C_0603_1608Metric","https://yageogroup.com/content/datasheet/asset/file/KEM_C1007_X8R_ULTRA_150C_SMD","C0603C330K4HACTU","399-C0603C330K4HACTUTR-ND"
 "C11","1","10uF/16V","Capacitor_THT:CP_Radial_D5.0mm_P2.50mm","https://www.we-online.com/components/products/datasheet/860010372001.pdf","860010372001","732-8593-1-ND"
 "C12,C13","2","47uF/50V","Capacitor_THT:CP_Radial_D5.0mm_P2.50mm","https://www.we-online.com/components/products/datasheet/860020472006.pdf","860020472006","732-8823-1-ND"
-"JOPN1","1","DIP24 Header","Package_DIP:DIP-24_W15.24mm","http://www.cnctech.us/pdfs/220-1-XX-00X_.pdf","220-1-24-006","1175-1524-5-ND"
+"J1,J2","2","Conn_01x12_Pin","Connector_PinHeader_2.54mm:PinHeader_1x12_P2.54mm_Vertical","https://app.adam-tech.com/products/download/data_sheet/201605/ph1-xx-ua-data-sheet.pdf","PH1-12-UA","2057-PH1-12-UA-ND"
 "R8,R9,R22,R23","4","100k","Resistor_SMD:R_0603_1608Metric","https://www.koaspeer.com/pdfs/RK73H.pdf","RK73H1JTTD1003F","2019-RK73H1JTTD1003FTR-ND"
 "R10,R11,R12,R13,R14,R15","6","210k","Resistor_SMD:R_0603_1608Metric","https://www.koaspeer.com/pdfs/RK73H.pdf","RK73H1JTTD2103F","2019-RK73H1JTTD2103FTR-ND"
 "R16,R17","2","300k","Resistor_SMD:R_0603_1608Metric","https://www.vishay.com/docs/28700/mcx0x0xpre.pdf,https://www.vishay.com/docs/28700/mcx0x0xpre.pdfhttps://www.vishay.com/docs/28700/mcx0x0xpre.pdf","MCT06030D3003BP500","749-MCT06030D3003BP500TR-ND"

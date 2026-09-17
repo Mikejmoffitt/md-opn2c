@@ -1,8 +1,10 @@
-### Footprint positions - created on 2026-09-17T19:09:21 ###
+### Footprint positions - created on 2026-09-17T21:51:37 ###
 ### Printed by KiCad version 10.0.5+dfsg-1
 ## Unit = mm, Angle = deg.
 ## Side : All
 # Ref     Val                  Package                                               PosX       PosY       Rot  Side
+J1        Conn_01x12_Pin       PinHeader_1x12_P2.54mm_Vertical                    25.4000   -38.1000  -90.0000  bottom
+J2        Conn_01x12_Pin       PinHeader_1x12_P2.54mm_Vertical                    25.4000   -22.8600  -90.0000  bottom
 JP1       SolderJumper_3_Open  SolderJumper-3_P2.0mm_Open_TrianglePad1.0x1.5mm    26.6700   -40.9575    0.0000  bottom
 JP2       SolderJumper_3_Open  SolderJumper-3_P2.0mm_Open_TrianglePad1.0x1.5mm    33.1150   -40.9575    0.0000  bottom
 C1        10uF/16V             C_0603_1608Metric                                  27.1275   -25.7175  180.0000  top
@@ -23,7 +25,6 @@ IN_SL1    TestPoint_Small      SolderWirePad_1x01_SMD_1x2mm                     
 IN_SL2    TestPoint_Small      SolderWirePad_1x01_SMD_1x2mm                       60.6425   -41.2750   90.0000  top
 IN_SR1    TestPoint_Small      SolderWirePad_1x01_SMD_1x2mm                       63.5000   -41.2750   90.0000  top
 IN_SR2    TestPoint_Small      SolderWirePad_1x01_SMD_1x2mm                       69.2150   -41.2750   90.0000  top
-JOPN1     DIP24_Header         DIP-24_W15.24mm                                    25.4000   -38.1000   90.0000  top
 OUT_GND1  TestPoint_Small      SolderWirePad_1x01_SMD_1x2mm                       66.3575   -20.2087  180.0000  top
 OUT_L1    TestPoint_Small      SolderWirePad_1x01_SMD_1x2mm                       68.3575   -20.2087  180.0000  top
 OUT_R1    TestPoint_Small      SolderWirePad_1x01_SMD_1x2mm                       70.3575   -20.2087  180.0000  top
@@ -47,5 +48,4 @@ R24       10k                  R_0603_1608Metric                                
 R25       10k                  R_0603_1608Metric                                  30.2525   -28.8925  180.0000  top
 U1        TL972                SOIC-8_3.9x4.9mm_P1.27mm                           64.7700   -29.5325   90.0000  top
 U2        74HCT08              SOIC-14_3.9x8.7mm_P1.27mm                          46.9900   -29.2750   90.0000  top
-U3        YM3438               DIP-24_W15.24mm                                    25.4000   -35.5600   90.0000  top
 ## End
