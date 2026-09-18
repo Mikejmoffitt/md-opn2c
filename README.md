@@ -65,6 +65,10 @@ On the underside of the adapter, use solder to close the jumpers based on the so
 | `(---  )`  | YM2612   |
 | `(  ---)`  | YM3438   |
 
+YM2612の場合は、音源の20/21ピンからグラウンド(19ピン）に2.2k抵抗器を付けて下さい。　次の改正に修正しますが、とりあえずこの小さい改造が必要になります。
+
+In the case of a YM2612, attach two 2.2k resistors between pins 20/21 and ground (pin 19), as the YM2612 requires pulldown resistors. Pads for this will be incorporated in a future revision.
+
 ## 基板の付け方・Installation in Megadrive
 
 先の準備を完全似できたか確認しておいてください。

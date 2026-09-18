@@ -6851,9 +6851,9 @@
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom no)
-		(on_board no)
+		(on_board yes)
 		(in_pos_files no)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "099f82fd-56c5-4d0c-9a25-e3ed8fb729ce")
 		(property "Reference" "R2"
@@ -7369,9 +7369,9 @@
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom no)
-		(on_board no)
+		(on_board yes)
 		(in_pos_files no)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "106c407e-c0c9-4a1b-b618-3932a9cb2d7c")
 		(property "Reference" "R3"
