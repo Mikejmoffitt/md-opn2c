@@ -5,9 +5,9 @@
 ![Installed unit](guide-img/installed.jpeg)
 
 # 概要・Overview
-このアダプターでメガドライブ初代はYM3438(OPN2C)が対応できるようになります。　元々の音源のステータスレジスターの読み込みの違いを解決するとジックがついています。　その上[オープンソースのとリップルバイパス](https://github.com/tianfeng33/triple-bypass-Version-2))より綺麗な音源のミクサーとバッファーがついていて、元々のヘッドホンも専用ライン出力が使えるようになります。
+このアダプターでメガドライブ初代はYM3438(OPN2C)が対応できるようになります。　元々の音源のステータスレジスターの読み込みの違いを解決するとジックがついています。　その上[オープンソースのトリップルバイパス](https://github.com/tianfeng33/triple-bypass-Version-2))より綺麗な音源のミクサーとバッファーがついていて、元々のヘッドホンも専用ライン出力が使えるようになります。
 
-元々のFM音源(YM2612)を抜いて使用することも可能です。　その場合は[3BP](https://github.com/tianfeng33/triple-bypass-Version-2))と同じような使い方になります。　その場合でもヘッドホンもラインアウトも利用できます。
+元々のFM音源(YM2612)を抜いて使用することも可能です。　その場合は[3BP](https://github.com/tianfeng33/triple-bypass-Version-2)と同じような使い方になります。　その場合でもヘッドホンもラインアウトも利用できます。
 
 メガドラVA0の基板を参考しながら書いたんですが、基本的にすべての初代の基板は互換はずです。
 
@@ -81,10 +81,10 @@ Place the assembled YM3438 adapter unit in the position that once held the origi
 
 | 信号Signal | 出所Location |
 |------------|--------------|
-| PSG        | C40 (-)      |
 | SL1        | C42 (-)      |
-| SR1        | C44 (-)      |
 | SL2        | C61 (-)      |
+| SR1        | C44 (-)      |
+| PSG        | C40 (-)      |
 | SR2        | C62 (-)      |
 
 ![Signal wiring diagram](guide-img/wiring-topside.jpeg)
@@ -103,3 +103,22 @@ The 'LINE OUT' pads are present so you may run a stereo output to the back of th
 
 The filter situated on the adapter has a fairly high cutoff frequency of about 16KHz. Unlike the triple bypass PCB, there isn't a selection of filter parameters, but if a stronger filter that sounds similar to the VA3 is desired, you may exchange the two highlighted capacitors for 150pF units to achieve a ~3.5KHz cutoff. The originals are 33pF.
 
+# バージョン・Version History
+
+## 1.0.0
+
+テスト用基板です。　YM2612対応パッドがなくてYM3438だけを確認しました。
+
+This version was made for testing. Pads to cooperate with YM2612 were not considered, and the operation of YM3438 was confirmed with this.
+
+## 1.0.1
+
+初版です。
+
+First release.
+
+## 1.0.2
+
+形関わらずYM2612用レジスターを追加シました。
+
+Optional pull-down resistors for YM2612 compatibility were added.
